@@ -1,0 +1,32 @@
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.col-izq{
+    background-color: blue;
+    min-height: 700px;
+}
+
+.letraBlanco{
+    color: white;
+    text-decoration: none;
+}
+
+.letraBlanco:hover{
+    color: white;
+    /* font-size: 20px;*/
+}
+
+.letraBlanco:hover .fa-solid{
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
+
+.perfil{
+    background-image: url("../img/Interstellar.jpg");
+    background-size: cover;
+    background-position: center;
+}
